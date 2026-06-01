@@ -3,7 +3,7 @@ using namespace std;
 void expliandeque(){
    deque<int>dq;
    dq.push_back(1);//{1}
-   dq.emplace_back(2)//{1,2}
+   dq.emplace_back(2);//{1,2}
    dq.push_front(4);//{4,1,2,}
    dq.emplace_front(3);//{3,4,1,2} 
    
@@ -15,6 +15,6 @@ void expliandeque(){
 
     //rest function same as vector
     //begin ,end,rbegin,clear,insert,size,swap
-    
+
 
 }
