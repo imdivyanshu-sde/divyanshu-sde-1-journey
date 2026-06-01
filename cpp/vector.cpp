@@ -59,11 +59,18 @@ for(int it:v){
 }
 
 // delete from vector
-//{10,20,30,40,50}
+//{10,20,30,40,50,60}
 v.erase(v.begin()+1);//delete 20
 
 v.erase(v.begin()+2,v.begin()+4);
-//delete not end before end {} 
+//delete not end before end {10,20,50,60}
 
 
+//insert function
+vector<int>v(2,100);//{100,100}
+v.insert(v.begin(),300);//{300,100,100}
+v.insert(v.begin()+1,2,10);//{300,10,10,100,100}
+
+vector<int> gopi(2,50)//{50,50}
+v.insert(v.begin(),copy.begin(),copy end());//if .begin(){50,50,300,10,10,100,100}
 }
