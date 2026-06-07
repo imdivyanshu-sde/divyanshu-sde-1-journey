@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0;
+    color: white;
+}
+#navbar{
+    background-color: black;
+    height:60px;
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    background-color: #f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+#dives{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+}
+header{
+    height:200px;
+}
+main{
+    height: 400px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
