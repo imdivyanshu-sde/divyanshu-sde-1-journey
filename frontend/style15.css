@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width:100px;
+    display:inline-block;
+    border:2px solid black;
+    background-color: aqua;
+}
+
+#box1{
+    position: static; 
+
+    background-color: aqua;
+}
+/* in static can't use left right up down property useless does't affect him cause he is static hmmmmmmmmmmmm*/
+#box2{
+    background-color: black;
+    color: white;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+/*it goes left right from it's curent position */
+#box3{
+    position: absolute;
+    background-color: green;
+    top: 700px;
+    right: 10px;
+}
+/* means now it doesn,t just div it change postion to its's ancestar who is body and body is full page
+so it change 10px anything according to it and also div 4 goes inside it beacuse it not consider it's place 
+because itremovrs from flow*/
+#box4{
+background-color:aquamarine;
+position: fixed;
+top: 10px;
+}
+/* also same work it but it does work with browser completely fixed get 
+get out of document flow*/
+#box5{
+    background-color: brown;
+    position: sticky;
+    top:0px;
+}
+/* it does,t work like it stuck it always change value accoding to scrool if wee set 0px 
+then if we scrrol in new scrool position it go to top from their 0px in the place where
+ we put from it not from starting
+*/
