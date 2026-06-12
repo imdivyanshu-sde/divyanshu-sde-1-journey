@@ -1,0 +1,15 @@
+
+div{
+    background-color: pink;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul{
+        display: flex;
+    justify-content: space-around;
+}
