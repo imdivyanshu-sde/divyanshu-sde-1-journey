@@ -1,0 +1,10 @@
+ #box1{
+    height: 100px;
+    width: 100px;
+    background-image: url("cat.jpg");
+    background-size: cover;
+    position:fixed;
+    right:10px;
+    bottom:0px;
+    
+ }
